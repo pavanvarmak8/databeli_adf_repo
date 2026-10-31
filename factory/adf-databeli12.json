@@ -1,0 +1,12 @@
+{
+	"name": "adf-databeli12",
+	"properties": {
+		"globalParameters": {
+			"email_receipients": {
+				"type": "string",
+				"value": "pavanvarmak8@gmail.com"
+			}
+		}
+	},
+	"location": "centralindia"
+}
