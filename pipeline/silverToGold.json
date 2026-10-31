@@ -180,6 +180,23 @@
 								],
 								"scriptBlockExecutionTimeout": "02:00:00"
 							}
+						},
+						{
+							"name": "UpdatePipelineFail",
+							"type": "Fail",
+							"dependsOn": [
+								{
+									"activity": "goldNB",
+									"dependencyConditions": [
+										"Failed"
+									]
+								}
+							],
+							"userProperties": [],
+							"typeProperties": {
+								"message": "Silver To Gold is Failed",
+								"errorCode": "500"
+							}
 						}
 					]
 				}
